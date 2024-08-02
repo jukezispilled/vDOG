@@ -4,14 +4,28 @@ export default function App() {
       <div className="max-w-6xl mx-auto px-4 py-4 md:py-8 w-[95%] bg-zinc-200">
         <header className="grid">
           <div className="w-full flex justify-center">
-            <img src="h.png" className="mb-6 rounded-xl w-[100%]"></img>
+            <img src="he.png" className="mb-6 rounded-xl w-[100%]"></img>
           </div>
           <div className="flex items-center gap-4 mb-6">
             <div className="w-36 md:size-40 relative overflow-hidden rounded-full">
               <img src="pov.png" alt="User" className="w-full h-full" />
             </div>
             <div className="md:space-y-0 md:-mt-1">
-              <h1 className="text-xl font-extrabold md:text-5xl">POV Cat</h1>
+              <div className="flex space-x-3">
+                <h1 className="text-xl font-extrabold md:text-5xl">POV Cat</h1>
+                <div className='flex justify-center items-center z-10'>
+                  <a href="https://x.com/" className=''>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" className='size-4 md:size-6 md:hover:scale-105 transition ease-in-out duration-150' fill="#00000" viewBox="0 0 50 50">
+                      <path d="M 6.9199219 6 L 21.136719 26.726562 L 6.2285156 44 L 9.40625 44 L 22.544922 28.777344 L 32.986328 44 L 43 44 L 28.123047 22.3125 L 42.203125 6 L 39.027344 6 L 26.716797 20.261719 L 16.933594 6 L 6.9199219 6 z"></path>
+                    </svg>
+                  </a>
+                  <a href="https://t.me/" className=''>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" className='size-4 md:size-6 md:hover:scale-105 transition ease-in-out duration-150' fill="#29A0DA" viewBox="0 0 50 50">
+                      <path d="M46.137,6.552c-0.75-0.636-1.928-0.727-3.146-0.238l-0.002,0C41.708,6.828,6.728,21.832,5.304,22.445	c-0.259,0.09-2.521,0.934-2.288,2.814c0.208,1.695,2.026,2.397,2.248,2.478l8.893,3.045c0.59,1.964,2.765,9.21,3.246,10.758	c0.3,0.965,0.789,2.233,1.646,2.494c0.752,0.29,1.5,0.025,1.984-0.355l5.437-5.043l8.777,6.845l0.209,0.125	c0.596,0.264,1.167,0.396,1.712,0.396c0.421,0,0.825-0.079,1.211-0.237c1.315-0.54,1.841-1.793,1.896-1.935l6.556-34.077	C47.231,7.933,46.675,7.007,46.137,6.552z M22,32l-3,8l-3-10l23-17L22,32z"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
               <p className="text-sm md:text-base text-gray-600">@POVCat • 599K subscribers</p>
               <p className="text-xs md:text-base text-gray-600">28 years old. Entreprenuer. Sharing my POV on things.</p>
               <p className="text-xs md:text-base text-gray-600 pb-1">CA: updating...</p>
@@ -26,7 +40,7 @@ export default function App() {
             time="2 days ago" 
             likes="1.2K" 
             dislikes="100"
-            image="/i8.png" 
+            image="/i1.png" 
           />
           <VideoCard 
             title="Lakers Game Courtside" 
