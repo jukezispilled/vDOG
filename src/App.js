@@ -15,7 +15,7 @@ export default function App() {
             <img src="he.png" className="mb-6 rounded-xl w-[100%]"></img>
           </div>
           <div className="flex items-center gap-4 mb-6">
-            <div className="w-36 md:size-40 relative overflow-hidden rounded-full">
+            <div className="w-48 md:size-40 relative overflow-hidden rounded-full">
               <img src="pov.png" alt="User" className="w-full h-full" />
             </div>
             <div className="md:space-y-0 md:-mt-1">
