@@ -1,4 +1,12 @@
+import React, { useState } from 'react';
+
 export default function App() {
+  const [isSubscribed, setIsSubscribed] = useState(false);
+
+  const handleSubscribe = () => {
+    setIsSubscribed(!isSubscribed);
+  };
+
   return (
     <div className="bg-zinc-200">
       <div className="max-w-6xl mx-auto px-4 py-4 md:py-8 w-[95%] bg-zinc-200">
@@ -29,7 +37,14 @@ export default function App() {
               <p className="text-sm md:text-base text-gray-600">@POVCat • 599K subscribers</p>
               <p className="text-xs md:text-base text-gray-600">28 years old. Entreprenuer. Sharing my POV on things.</p>
               <p className="text-xs md:text-base text-gray-600 pb-1">CA: updating...</p>
-              <button className="bg-red-600 py-2 px-3 text-base md:text-lg rounded-full text-white font-semibold">Subscribe</button>
+              <button 
+                className={`py-2 px-3 text-base md:text-lg rounded-full text-white font-semibold transition-colors duration-300 ${
+                  isSubscribed ? 'bg-gray-500 hover:bg-gray-600' : 'bg-red-600 hover:bg-red-700'
+                }`}
+                onClick={handleSubscribe}
+              >
+                {isSubscribed ? 'Subscribed' : 'Subscribe'}
+              </button>
             </div>
           </div>
         </header>
