@@ -86,16 +86,16 @@ export default function App() {
             title="Living 24hrs Like Jordan Belfort" 
             views="2M" 
             time="1 month ago" 
-            likes="1.5K" 
-            dislikes="50"
+            likes="1.8K" 
+            dislikes="30"
             image="/i5.png" 
           />
           <VideoCard 
             title="All White Recap" 
             views="1.1M" 
             time="1 month ago" 
-            likes="1.5K" 
-            dislikes="50"
+            likes="1.6K" 
+            dislikes="57"
             image="/i2.png" 
           />
         </div>
