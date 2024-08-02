@@ -54,7 +54,7 @@ export default function App() {
             title="Cigar Talk w/ Tates!" 
             views="12M" 
             time="10 days ago" 
-            likes="300" 
+            likes="979" 
             dislikes="10"
             image="/i.png" 
           />
