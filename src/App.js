@@ -34,7 +34,7 @@ export default function App() {
                   </a>
                 </div>
               </div>
-              <p className="text-sm md:text-base text-gray-600">@POVCat • 599K subscribers</p>
+              <p className="text-sm md:text-base text-gray-600">@POV • 599K subscribers</p>
               <p className="text-xs md:text-base text-gray-600">28 years old. Entreprenuer. Sharing my POV on things.</p>
               <p className="text-xs md:text-base text-gray-600 pb-1">CA: updating...</p>
               <button 
