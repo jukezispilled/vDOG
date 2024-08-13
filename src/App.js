@@ -16,11 +16,11 @@ export default function App() {
           </div>
           <div className="flex items-center gap-4 mb-6">
             <div className="w-48 md:size-40 relative overflow-hidden rounded-full">
-              <img src="pov.png" alt="User" className="w-full h-full" />
+              <img src="po.png" alt="User" className="w-full h-full" />
             </div>
             <div className="md:space-y-0 md:-mt-1">
               <div className="flex space-x-3">
-                <h1 className="text-xl font-extrabold md:text-5xl">POV Cat</h1>
+                <h1 className="text-xl font-extrabold md:text-5xl">POV</h1>
                 <div className='flex justify-center items-center z-10'>
                   <a href="https://x.com/" className=''>
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" className='size-4 md:size-6 md:hover:scale-105 transition ease-in-out duration-150' fill="#00000" viewBox="0 0 50 50">
@@ -50,68 +50,68 @@ export default function App() {
         </header>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
           <VideoCard 
-            title="HISTORY AT UFC" 
+            title="10 Investing Tips from Warren Buffet" 
             views="1.2M" 
             time="2 days ago" 
             likes="1.2K" 
             dislikes="100"
-            image="/i1.png" 
+            image="/x1.png" 
           />
           <VideoCard 
-            title="Lakers Game Courtside" 
+            title="What it's like Flying Private Jets" 
             views="1.5M" 
             time="5 days ago" 
             likes="500" 
             dislikes="20"
-            image="/i7.png" 
+            image="/x7.png" 
           />
           <VideoCard 
-            title="Cigar Talk w/ Tates!" 
+            title="Living 24hrs like Jordan Belfort" 
             views="12M" 
             time="10 days ago" 
             likes="979" 
             dislikes="10"
-            image="/i.png" 
+            image="/x.png" 
+          />
+          <VideoCard 
+            title="HISTORY MADE @ UFC 304" 
+            views="7M" 
+            time="3 week ago" 
+            likes="1.5K" 
+            dislikes="50"
+            image="/x3.png" 
+          />
+          <VideoCard 
+            title="Lakers Game Courtside" 
+            views="1.8M" 
+            time="3 weeks ago" 
+            likes="2.5K" 
+            dislikes="200"
+            image="/x6.png" 
+          />
+          <VideoCard 
+            title="Cigar Talk w/ Tates!" 
+            views="3M" 
+            time="1 month ago" 
+            likes="1.5K" 
+            dislikes="50"
+            image="/x4.png" 
           />
           <VideoCard 
             title="Penthouse Tour" 
-            views="7M" 
-            time="1 week ago" 
-            likes="1.5K" 
-            dislikes="50"
-            image="/i6.png" 
-          />
-          <VideoCard 
-            title="10 Warren Buffet Investing Tips!" 
-            views="1.8M" 
-            time="2 weeks ago" 
-            likes="2.5K" 
-            dislikes="200"
-            image="/i3.png" 
-          />
-          <VideoCard 
-            title="First Time Flying Private" 
-            views="3M" 
-            time="2 weeks ago" 
-            likes="1.5K" 
-            dislikes="50"
-            image="/i4.png" 
-          />
-          <VideoCard 
-            title="Living 24hrs Like Jordan Belfort" 
             views="2M" 
-            time="1 month ago" 
+            time="2 month ago" 
             likes="1.8K" 
             dislikes="30"
-            image="/i5.png" 
+            image="/x5.png" 
           />
           <VideoCard 
             title="All White Recap" 
             views="1.1M" 
-            time="1 month ago" 
+            time="4 month ago" 
             likes="1.6K" 
             dislikes="57"
-            image="/i2.png" 
+            image="/x2.png" 
           />
         </div>
       </div>
