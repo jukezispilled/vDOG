@@ -36,7 +36,7 @@ export default function App() {
               </div>
               <p className="text-sm md:text-base text-gray-600">@POV • 599K subscribers</p>
               <p className="text-xs md:text-base text-gray-600">28 years old. Entreprenuer. Sharing my POV on things.</p>
-              <p className="text-xs md:text-base text-gray-600 pb-1">CA: updating...</p>
+              <p className="text-xs md:text-base text-gray-600 pb-1">CA: 2fg1B7hSJF2EQ3sY7bZhZ7hD3HztJtR4boiYQ4EBpump</p>
               <button 
                 className={`py-2 px-3 text-base md:text-lg rounded-full text-white font-semibold transition-colors duration-300 ${
                   isSubscribed ? 'bg-gray-500 hover:bg-gray-600' : 'bg-red-600 hover:bg-red-700'
